@@ -130,3 +130,8 @@ nav a:hover {
     font-size: 30px;
     border-bottom: solid 2px #113947;
 }
+
+.education, .work {
+    border-left: 2px solid #e6e9ed;
+    padding-left: 20px;
+}
