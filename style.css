@@ -135,3 +135,58 @@ nav a:hover {
     border-left: 2px solid #e6e9ed;
     padding-left: 20px;
 }
+
+/* professional skill */
+.skills {
+    display: flex;
+    gap: 20px;
+}
+
+.skill {
+    width: 100%;
+}
+
+.bar {
+    background-color: #bbbbbb;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.skill p {
+    font-size: 10px;
+    background-color: #113947;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#html,
+#dart {
+    width: 75%;
+}
+
+#css {
+    width: 70%;
+}
+
+#js {
+    width: 60%;
+}
+
+#ap {
+    width: 73%;
+}
+
+#xd {
+    width: 70%;
+}
+
+#cdr {
+    width: 76%;
+}
+
+#figma {
+    width: 69%;
+}
+
+/* end professional skill */
