@@ -289,6 +289,10 @@ input {
 #submit {
     padding: 5px 10px;
 }
-
 /* contact me */
 /* end main */
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
