@@ -101,3 +101,32 @@ nav a:hover {
 }
 
 /* end header */
+
+/* main */
+.card {
+    box-shadow: 2px 2px 4px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* grid-section1 */
+.grid-section1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+.tb-bio th {
+    text-align: left;
+}
+
+.about-me {
+    grid-column: 1 / span 2;
+}
+
+.title-content {
+    font-weight: 500;
+    font-size: 30px;
+    border-bottom: solid 2px #113947;
+}
