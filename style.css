@@ -231,3 +231,64 @@ span {
     color: #848484;
     font-size: 16px;
 }
+
+/* contact me*/
+form {
+    display: grid;
+    gap: 10px;
+    padding: 0px 100px;
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 15px;
+}
+
+.name {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.email {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.messege {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.submit {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+
+input {
+    width: 100%;
+}
+
+.messege textarea {
+    height: 100px;
+    width: 100%;
+    text-align: start;
+    resize: none;
+    padding: 5px 10px;
+}
+
+#submit {
+    background: #39c0ed;
+    border: 0px;
+    width: 20%;
+    color: white;
+    border-radius: 5px;
+}
+
+#email,
+#name,
+#submit {
+    padding: 5px 10px;
+}
+
+/* contact me */
+/* end main */
